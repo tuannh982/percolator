@@ -8,7 +8,7 @@ object ProjectInfo {
   val scala213Version                 = "2.13.12"
   val scala3Version                   = "3.3.3"
   val scalaVersion: String            = scala212Version
-  val crossScalaVersions: Seq[String] = Seq(scala212Version, scala213Version, scala3Version)
+  val crossScalaVersions: Seq[String] = Seq(scala212Version, scala213Version /*, scala3Version*/ )
 }
 
 object Dependencies {

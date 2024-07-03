@@ -2,14 +2,14 @@ import Sbt.ProjectExtension
 
 lazy val root = (project in file("."))
   .aggregate(
-    `example`
+    `core`
   )
   .settings(
-    name := "scala-project-template",
+    name := "percolator",
     publish / skip := true
   )
 
-lazy val `example` = project
+lazy val `core` = project
   .defaultSettings()
   .withCrossScalaSupports()
 
